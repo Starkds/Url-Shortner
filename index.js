@@ -11,7 +11,7 @@ const URL = require('./models/url.models.js');
 const app = express();
 
 
-const  port = process.env.PORT  || 5000;
+const  port = process.env.PORT  || 5000 || 6000 || 7000;
 const dbURL = process.env.MONGOURI;
 
 
