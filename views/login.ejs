@@ -59,10 +59,16 @@
             cursor: pointer;
             font-size: 16px;
             width: 100%;
+           
         }
 
         button:hover {
             background-color: #45a049;
+        }
+
+        h4{
+         font-weight: 300;
+         font-size:medium
         }
 
         @media (max-width: 400px) {
@@ -86,6 +92,12 @@
        <input type="text" required    name="password" />
 
        <button type="submit" >Login</button>
+
+  <h4>Don't have an account</h4>
+   <h4>Click on SignUp button below</h4>
+    <button onclick="window.location.href='/signup'">Sign up</button>
+
+      
     </form>
 </div>
 </body>
